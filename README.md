@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    ReactJS FrontEnd Assignment -UsersList
 
-## Available Scripts
+    
 
-In the project directory, you can run:
+## Objective
+      Build a React JS application and Develop a simple web application where users can view, add, edit, and delete user details from a mock backend API.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    1.USE React ,React Router,css and css frame work,github.
+    2.Implement pagination or infinite scrolling for the user list.
+    3.Add client-side validation for the user input form.
+    4.Make the interface responsive.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Completion Instructions
 
-### `npm run build`
+### Functionality
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Must Have
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   * Build a react JS Application and Display a list of users with details such as ID, First Name, Last Name, Email, and Department.
+   * Provide buttons or links to "Add", "Edit", and "Delete" users.
+   * A form to input details of a new user or edit details of an existing user.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pages 
+    Page: Home 
+    Page Details: 
+        Header - link for Home page and add User  ,
+        User's List - user's details, alter user ,  delete user
+        Pagenation - depand on user's list from backend api Data
+    Navigation: 
+        "Home page" link in header 
+        "Add new user page " link in header
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Page: Adduser
+    Page Details:
+        Header - link for Home page and add User ,
+        Form , submit button (Details-name, email, gender, department , image )
+    Navigation:
+        "Home page" link in header 
+        "Add new user page " link in header
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Page: Alteruser
+    PageDetails:
+        Header - link for Home page and add User ,
+        Form , submit button (Details-name, email, gender, department , image )
+    Navigation:
+        "Home page" link in header 
+        "Add new user page " link in header
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Page: NotFound
+    PageDetails: 
+        Handling for errors 
+    Navigation: NA
 
-## Learn More
+       
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Nice to Have
+    * Implement pagination or infinite scrolling for the user list.
+    * Add client-side validation for the user input form.
+    * Make the interface responsive.
 
-### Code Splitting
+## Technical Details 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Routes 
+| pages     |Route      |Path       |
+|-----------|-----------|-----------| 
+| Home      |Home       |/          |
+| Add user  |Add user   |/user      |
+| Alter user| Alter user|/user/alter|
+| Not Found | Not Found |/*         | 
+ 
+ 
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Guidelines to develop a project
 
-### Making a Progressive Web App
+#### Must Have
+* Use Github 
+    * Commit code regularly and commit message should be clear 
+    * Include a README file explaining the Project setup,usage instruction,and ant additional information. 
+    * The repo should be will organised and easy to read.
+    * The code should be clear, modular, and well-structured 
+The application should be visually appealling, and user friendly 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The appliction should handle all the errors.
 
-### Advanced Configuration
+    
+#### Nice to Have
+* Implement unit tests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Submission Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Must Have
+* Github Repository
+
+#### Nice to Have
+
+* Deploying the application on a hosting platform. 
+## Resources
+
+### Design files
+
+    Home, Add User, Alter User , Delete User , Not Found 
+
+    Refference-"DummyJSON" 
+
+### APIs
+
+    UserList, Add new User, Alter existing User , delete user 
+
+    usersList Api - 'https://dummyjson.com/users' 
+    Add new user Api - 'https://dummyjson.com/users/add'
+    Alter existing user Api - 'https://dummyjson.com/users/id'
+
+### Third-party packages
+Routes, etc (react-router-dom) 
+Icons (react-icons)
+
+    

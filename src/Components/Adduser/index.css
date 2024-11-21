@@ -1,0 +1,145 @@
+.img{
+    height: 100px;
+    width:100px;
+}
+
+.user-img{
+    border-radius: 50px;
+    height: 100px;
+    width:100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    height:90%;
+    overflow-y: scroll;
+    
+}
+
+ 
+
+.form-heading {
+    font-family: "Roboto";
+    font-size: 36px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+  .img-input-file{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    height:25px;
+    width: 95px;
+    margin-top: 2px;
+  }
+
+  .error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 14px;
+  }
+  .succuss-message{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+
+  }
+  .gender-field-heading {
+    color: #212529;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .form-container{
+    border:solid 2px;
+    border-radius: 10px; 
+    padding:10px;
+    width:50%;
+    position: relative;
+     
+
+  }
+  .radio-text{
+    margin-left: 2%;
+    margin-right: 2%;
+
+  }
+
+  .text-container{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .submit-button{
+     background-color: transparent;
+     font-size: 15px;
+     margin-left: 5px;
+     font-weight: 600;
+  }
+
+  @media screen and (min-width:768px){
+
+    .user-img{
+        height: 200px;
+        width:200px;
+        margin-top: 0px;
+        
+    }
+    .img{
+        margin-top: 0px;
+       
+    }
+
+    .form-input{
+        height: 28px;
+    }
+    .form-container{
+        width:60%; 
+        font-size: 25px;
+        position: relative ;
+         
+    }
+    .form-heading{
+        margin-top: 2px;
+    }
+    .img-container{
+        margin-top: 0px;
+        padding-top: 0px; 
+
+    }
+
+    .img-input-file{
+        height:100px;
+        width:110px;
+
+    }
+
+    .text-container{
+      font-size: 25px;
+    }
+   
+
+  }
+
+   
+     

@@ -1,0 +1,47 @@
+.header-container{
+    height:6%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 0;
+
+   
+}
+
+.header-icons{
+    margin-right: 2%;
+    font-size :18px;
+
+}
+
+.header-heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color:aliceblue;
+}
+
+@media  screen and (min-width:768px) {
+
+    .header-heading{
+        font-weight: bold;
+        font-size: 28px;
+    }
+    .head-icon-container{
+        display: flex;
+        flex-direction: row;
+        width:10%;
+        align-items: center;
+    }
+    .header-icons{
+        font-size: 25px;
+        margin-bottom: 4%;
+
+    }
+    .text{
+        margin-right:5px ;
+        align-self: center;
+        margin-top:5%;
+    }
+    
+}
